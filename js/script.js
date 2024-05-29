@@ -27,6 +27,7 @@ createApp({
                 }
             ],
             activeArticle: 0,
+            activeThumbnail: "active-thumbnail",
         }
     },
 
