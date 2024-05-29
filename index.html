@@ -15,8 +15,8 @@
 <body>
     <div id="app">
         <div class="container">
-            <div id="pre-button">
-
+            <div id="pre-button" class="button">
+                <i class="fa-solid fa-chevron-left"></i>
             </div>
             <div class="slider-wrapper" tabindex="0">
                 <div v-for="(slide, index) in slides" :key="index" class="item" v-show="index === activeArticle">
@@ -29,8 +29,8 @@
                     </div>
                 </div>
             </div>
-            <div id="pre-button">
-                
+            <div id="pre-button" class="button">
+                <i class="fa-solid fa-chevron-right"></i>
             </div>
         </div>
     </div>
