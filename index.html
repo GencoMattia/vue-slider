@@ -33,7 +33,7 @@
                 <i class="fa-solid fa-chevron-right"></i>
             </div>
             <div class="thumbnails-container">
-                <div v-for="(thumbnail, index) in slides" :key="index" class="thumbnails-wrapper">
+                <div @click="showThumbnail(index)" v-for="(thumbnail, index) in slides" :key="index" class="thumbnails-wrapper">
                     <img :class="{ activeThumbnail: index === activeArticle}" :src="thumbnail.image" :alt="thumbnail.title"/>
                 </div>
             </div>
