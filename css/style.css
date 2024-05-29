@@ -26,7 +26,16 @@
     align-items: center;
     width: 50px;
     height: 300px;
-    border: solid 1px gray;
+    /* border: solid 1px gray; */
+    background-color: bisque;
+}
+
+.button:hover {
+    background-color: burlywood;
+}
+
+.button:active {
+    scale: 95%;
 }
 
 .thumbnails-container {
